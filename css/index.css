@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&family=Open+Sans:wght@400;500;600;700;800&display=swap");
+:root {
+  --font-base: "Epilogue", sans-serif;
+  --font-alt: "Open Sans", sans-serif;
+  --color-almostwhite: hsl(0, 0%, 98%);
+  --color-almostgray: hsl(0, 0%, 41%);
+  --color-almostblack: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font-base);
+  background-color: var(--OffWhite-color);
+  font-size: 18px;
+  min-height: 100vh;
+  width: 1440px;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 375px) {
+  body {
+    max-width: 375px;
+    height: unset;
+    overflow: hidden;
+  }
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+h1 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 86px;
+}
+.App__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-text {
+  color: var(--color-almostgray);
+  font-family: var(--font-base);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14.35px;
+}

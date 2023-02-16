@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button
+      type="button"
+      aria-controls="app__navbar-links"
+      aria-expanded="false"
+      class="burger"
+    >
+      <img src="./assets/menu.svg" alt="" class="menu-open" />
+      <img src="./assets/closemenu.svg" alt="" class="menu-close" />
+    </button>
+    <nav class="app__navbar">
+      <div class="app__navbar-logo">
+        <img src="./assets/logo.svg" alt="logo" />
+      </div>
+      <ul data-visible="false" class="app__navbar-links">
+        <li class="app__flex p-text">
+          <a href="#features">Features</a>
+          <img
+            src="./assets/arrowdown.svg"
+            alt="arrowdown"
+            class="arrowdown1"
+          />
+        </li>
+        <li class="app__flex p-text">
+          <a href="#company">Company</a>
+          <img
+            src="./assets/arrowdown.svg"
+            alt="arrowdown"
+            class="arrowdown2"
+          />
+        </li>
+        <li class="app__flex p-text"><a href="#careers">Careers</a></li>
+        <li class="app__flex p-text"><a href="#about">About</a></li>
+      </ul>
+      <div class="app__navbar-dropdown">
+        <div class="app__navbar-dropdown-left-box">
+          <div class="title-1">
+            <img src="./assets/todo.svg" alt="todo" />
+            <p>To do List</p>
+          </div>
+          <div class="title-2">
+            <img src="./assets/calendar.svg" alt="cal" />
+            <p>Calendar</p>
+          </div>
+          <div class="title-3">
+            <img src="./assets/reminders.svg" alt="reminders" />
+            <p>Reminders</p>
+          </div>
+          <div class="title-4">
+            <img src="./assets/planning.svg" alt="planning" />
+            <p>Planning</p>
+          </div>
+        </div>
+        <div class="app__navbar-dropdown-right-box">
+          <p>History</p>
+          <p>Our Team</p>
+          <p>Blog</p>
+        </div>
+      </div>
+      <div class="app__navbar-login">
+        <p class="log">Login</p>
+        <p class="reg">Register</p>
+      </div>
+    </nav>
+    <header class="app__header">
+      <div class="app__header-main">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <a href="#learn more"> <span>Learn more</span></a>
+      </div>
+      <div class="app__header-brands">
+        <img src="./assets/databiz.svg" alt="data" />
+        <img src="./assets/audiophile.svg" alt="audiophile" />
+        <img src="./assets/meet.svg" alt="meet" />
+        <img src="assets/maker.svg" alt="make" />
+      </div>
+      <div class="app__header-hero">
+        <img src="./assets/herodesktop.png" alt="hero" class="desktop" />
+        <img src="./assets/heromobile.png" alt="heromobile" class="mobile" />
+      </div>
+    </header>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
