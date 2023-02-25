@@ -8,8 +8,8 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ## Links
 
-- Solution URL:(https://www.frontendmentor.io/solutions/newshomepage-Ql1G1geGAs)
-- Live Site URL:(https://mohamed806h.github.io/News-homepage/)
+- Solution URL:(https://www.frontendmentor.io/solutions/introsectionwithdropdownnavigation-DyteDMVJzR)
+- Live Site URL:(https://mohamed806h.github.io/Intro-section-with-dropdown-navigation/)
 
 ## Built with
 
