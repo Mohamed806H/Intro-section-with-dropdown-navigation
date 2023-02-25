@@ -2,11 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
   </head>
   <body>
     <button
@@ -15,8 +20,8 @@
       aria-expanded="false"
       class="burger"
     >
-      <img src="./assets/menu.svg" alt="" class="menu-open" />
-      <img src="./assets/closemenu.svg" alt="" class="menu-close" />
+      <img src="./assets/menu.svg" alt="menu-open" class="menu-open" />
+      <img src="./assets/closemenu.svg" alt="menu-close" class="menu-close" />
     </button>
     <nav class="app__navbar">
       <div class="app__navbar-logo">
@@ -25,19 +30,15 @@
       <ul data-visible="false" class="app__navbar-links">
         <li class="app__flex p-text">
           <a href="#features">Features</a>
-          <img
-            src="./assets/arrowdown.svg"
-            alt="arrowdown"
-            class="arrowdown1"
-          />
+          <button type="button" class="arrowdown1">
+            <img src="./assets/arrowdown.svg" alt="arrowdown" />
+          </button>
         </li>
         <li class="app__flex p-text">
           <a href="#company">Company</a>
-          <img
-            src="./assets/arrowdown.svg"
-            alt="arrowdown"
-            class="arrowdown2"
-          />
+          <button type="button" class="arrowdown2">
+            <img src="./assets/arrowdown.svg" alt="arrowdown" />
+          </button>
         </li>
         <li class="app__flex p-text"><a href="#careers">Careers</a></li>
         <li class="app__flex p-text"><a href="#about">About</a></li>

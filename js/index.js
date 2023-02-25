@@ -5,7 +5,7 @@ const arrowOne = document.querySelector(".arrowdown1");
 const arrowTwo = document.querySelector(".arrowdown2");
 const boxOne = document.querySelector(".app__navbar-dropdown-left-box");
 const boxTwo = document.querySelector(".app__navbar-dropdown-right-box");
-// event listner
+// event listner & Functions
 openMenu.addEventListener("click", () => {
   const visibility = primaryNav.getAttribute("data-visible");
   if (visibility === "false") {
@@ -26,14 +26,22 @@ openMenu.addEventListener("click", () => {
     document.querySelector(".app__navbar-login").style.display = "none";
     document.querySelector(".log").style.display = "none";
     document.querySelector(".reg").style.display = "none";
-
     primaryNav.style.boxShadow = "none";
   }
 });
 arrowOne.addEventListener("click", () => {
-  boxOne.classList.toggle("change-state");
+  arrowOne.classList.toggle("rotate");
+  if (boxOne.style.display !== "block") {
+    boxOne.style.display = "block";
+  } else {
+    boxOne.style.display = "none";
+  }
 });
 arrowTwo.addEventListener("click", () => {
-  boxTwo.classList.toggle("change-state-two");
+  arrowTwo.classList.toggle("rotate");
+  if (boxTwo.style.display !== "block") {
+    boxTwo.style.display = "block";
+  } else {
+    boxTwo.style.display = "none";
+  }
 });
-//Functions
